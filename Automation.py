@@ -1,5 +1,7 @@
 import pyautogui
 import subprocess
+import pandas as pd
+import streamlit as st
 
 pyautogui.moveTo(10,10, duration=1)
 pyautogui.moveTo(100,400, duration=2)
